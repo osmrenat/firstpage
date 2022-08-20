@@ -1,0 +1,110 @@
+/* Подключил локальные шрифты */
+@font-face {
+    font-family: 'Bold';
+    src: url(Fonts/Montserrat/Montserrat-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: 'Light';
+    src: url(Fonts/Montserrat/Montserrat-LightItalic.ttf);
+}
+
+
+ /* Фон и его анимация */
+body {
+
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: gradient 10s ease-in-out infinite;
+}
+
+
+@keyframes gradient {
+    0%{
+        background-position: 0 50%;
+    }    
+    50%{
+        background-position: 100% 50%;
+    }    
+    100%{
+        background-position: 0 50%;
+    }    
+
+}
+
+h1 {
+    font-family: 'Bold';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 400%;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+
+}
+
+h2 {
+    font-family: 'Light';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 15px;
+    height: 500px;
+    border: 5px solid rgba(255, 255, 255, 0.459);
+    box-shadow: 8px 8px 0px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+.center-pic {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+h3 {
+    font-family: 'Light';
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 150%;
+}
+
+li {
+    font-family: 'Light';
+    color: rgb(255, 255, 255);
+    text-align: left;
+    margin-left: 30px;
+    font-size: 100%;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 170px;
+    margin: auto;
+}
+
+.container ul {
+    text-align: center;
+    list-style: none;
+    
+}
+
+.container li {
+    display:list-item;
+}
+
+
